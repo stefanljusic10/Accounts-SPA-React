@@ -13,7 +13,7 @@ function App() {
 
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Header />
                 <Route to="/">
                     <AccountsTable account={account} />
