@@ -1,0 +1,27 @@
+.table-block{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.table-header{
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 3.3rem;
+}
+
+table{
+    width: 100%;
+    margin-top: 4vh;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead{
+    background-color: rgb(233, 233, 233);
+    height: 10vh;
+}
+
+th, td{
+    padding: 10px;
+}
