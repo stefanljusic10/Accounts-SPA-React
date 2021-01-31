@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/stefanljusic10/Accounts-SPA-React/static/css/main.00ebf6db.chunk.css",
+    "main.js": "/stefanljusic10/Accounts-SPA-React/static/js/main.5a7e5ebe.chunk.js",
+    "main.js.map": "/stefanljusic10/Accounts-SPA-React/static/js/main.5a7e5ebe.chunk.js.map",
+    "runtime-main.js": "/stefanljusic10/Accounts-SPA-React/static/js/runtime-main.7a01c66d.js",
+    "runtime-main.js.map": "/stefanljusic10/Accounts-SPA-React/static/js/runtime-main.7a01c66d.js.map",
+    "static/js/2.4e9d9792.chunk.js": "/stefanljusic10/Accounts-SPA-React/static/js/2.4e9d9792.chunk.js",
+    "static/js/2.4e9d9792.chunk.js.map": "/stefanljusic10/Accounts-SPA-React/static/js/2.4e9d9792.chunk.js.map",
+    "index.html": "/stefanljusic10/Accounts-SPA-React/index.html",
+    "static/css/main.00ebf6db.chunk.css.map": "/stefanljusic10/Accounts-SPA-React/static/css/main.00ebf6db.chunk.css.map",
+    "static/js/2.4e9d9792.chunk.js.LICENSE.txt": "/stefanljusic10/Accounts-SPA-React/static/js/2.4e9d9792.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a01c66d.js",
+    "static/js/2.4e9d9792.chunk.js",
+    "static/css/main.00ebf6db.chunk.css",
+    "static/js/main.5a7e5ebe.chunk.js"
+  ]
+}
