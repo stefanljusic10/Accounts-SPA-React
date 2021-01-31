@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import AccountsTable from "./components/AccountsTable/AccountsTable";
 import Header from "./components/Header/Header";
 
@@ -13,12 +13,12 @@ function App() {
 
     return (
         <>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <HashRouter>
                 <Header />
                 <Route to="/">
                     <AccountsTable account={account} />
                 </Route>
-            </BrowserRouter>
+            </HashRouter>
         </>
     )
 }
