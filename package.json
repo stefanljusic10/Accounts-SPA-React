@@ -1,6 +1,6 @@
 {
-  "homepage": "https://stefanljusic10.github.io/Accounts-SPA-React",
   "name": "accounts-react-app",
+  "homepage": "https://stefanljusic10.github.io/Accounts-SPA-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
