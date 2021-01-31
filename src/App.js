@@ -13,7 +13,7 @@ function App() {
 
     return (
         <>
-            <BrowserRouter basename="/Accounts-SPA-React">
+            <BrowserRouter>
                 <Header />
                 <Route to="/">
                     <AccountsTable account={account} />
