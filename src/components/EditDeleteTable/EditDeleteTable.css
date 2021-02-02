@@ -1,0 +1,20 @@
+.edit-btn{
+    width: 100%;
+    height: 4.7vh;
+    background-color: darkorange;
+    color: white;
+    font-size: 1rem;
+}
+
+.delete-btn{
+    width: 100%;
+    height: 4.7vh;
+    background-color: rgb(255, 57, 22);
+    color: white;
+    font-size: 1rem;
+}
+
+.edit-delete-td{
+    padding: 0%;
+    width: 10%;
+}

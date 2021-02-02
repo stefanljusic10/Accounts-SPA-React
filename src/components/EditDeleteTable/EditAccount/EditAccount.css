@@ -1,0 +1,28 @@
+.add-block{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.add-text{
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 3.3rem;
+}
+
+.inputs{
+    margin-top: 4vh;
+}
+
+.input-field{
+    width: 100%;
+    padding: 1%;
+}
+
+button{
+    width: 20%;
+    background-color: darkcyan;
+    color: white;
+    padding: 1%;
+    border: none;
+}

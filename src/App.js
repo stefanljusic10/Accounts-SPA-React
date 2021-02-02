@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import AccountsTable from "./components/AccountsTable/AccountsTable";
+import AddAccount from "./components/AddAccount/AddAccount";
+import EditAccount from "./components/EditDeleteTable/EditAccount/EditAccount";
+import EditDeleteTable from "./components/EditDeleteTable/EditDeleteTable";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -11,14 +14,32 @@ function App() {
         { id: 3, firstName: "Kosta", lastName: "Kostic", phone: "33-33-33-33", email: "kosta123@kosta.com" }
     ])
 
+    const addNewAccount = acc => {
+        acc.id = account.length + 1;
+        setAccount(prevAccount => prevAccount.concat(acc));
+    }
+
+    const deleteAccount = idDeletedAccount => setAccount(prevAccount => prevAccount = prevAccount.filter(el => el.id !== idDeletedAccount));
+
     return (
         <>
-            <HashRouter>
+            <BrowserRouter>
                 <Header />
-                <Route to="/">
+                <Route path="/" exact>
                     <AccountsTable account={account} />
                 </Route>
-            </HashRouter>
+                <Route path="/add">
+                    <AddAccount addNewAccount={addNewAccount} />
+                </Route>
+                <Switch>
+                    <Route path="/edit-delete">
+                        <EditDeleteTable account={account} deleteAccount={deleteAccount} />
+                    </Route>
+                    <Route path="/edit">
+                        <EditAccount account={account}/>
+                    </Route>
+                </Switch>
+            </BrowserRouter>
         </>
     )
 }
