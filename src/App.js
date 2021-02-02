@@ -23,7 +23,7 @@ function App() {
 
     return (
         <>
-            <BrowserRouter>
+            <BrowserRouter basename="/react">
                 <Header />
                 <Route path="/" exact>
                     <AccountsTable account={account} />
