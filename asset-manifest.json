@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Accounts-SPA-React/static/css/main.d74fedd2.chunk.css",
-    "main.js": "/Accounts-SPA-React/static/js/main.da1455b5.chunk.js",
-    "main.js.map": "/Accounts-SPA-React/static/js/main.da1455b5.chunk.js.map",
+    "main.js": "/Accounts-SPA-React/static/js/main.dce19bbe.chunk.js",
+    "main.js.map": "/Accounts-SPA-React/static/js/main.dce19bbe.chunk.js.map",
     "runtime-main.js": "/Accounts-SPA-React/static/js/runtime-main.b34a288a.js",
     "runtime-main.js.map": "/Accounts-SPA-React/static/js/runtime-main.b34a288a.js.map",
-    "static/js/2.5d4ff1c1.chunk.js": "/Accounts-SPA-React/static/js/2.5d4ff1c1.chunk.js",
-    "static/js/2.5d4ff1c1.chunk.js.map": "/Accounts-SPA-React/static/js/2.5d4ff1c1.chunk.js.map",
+    "static/js/2.f8125432.chunk.js": "/Accounts-SPA-React/static/js/2.f8125432.chunk.js",
+    "static/js/2.f8125432.chunk.js.map": "/Accounts-SPA-React/static/js/2.f8125432.chunk.js.map",
     "index.html": "/Accounts-SPA-React/index.html",
     "static/css/main.d74fedd2.chunk.css.map": "/Accounts-SPA-React/static/css/main.d74fedd2.chunk.css.map",
-    "static/js/2.5d4ff1c1.chunk.js.LICENSE.txt": "/Accounts-SPA-React/static/js/2.5d4ff1c1.chunk.js.LICENSE.txt"
+    "static/js/2.f8125432.chunk.js.LICENSE.txt": "/Accounts-SPA-React/static/js/2.f8125432.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b34a288a.js",
-    "static/js/2.5d4ff1c1.chunk.js",
+    "static/js/2.f8125432.chunk.js",
     "static/css/main.d74fedd2.chunk.css",
-    "static/js/main.da1455b5.chunk.js"
+    "static/js/main.dce19bbe.chunk.js"
   ]
 }
